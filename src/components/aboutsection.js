@@ -20,7 +20,7 @@ function Aboutsection(){
           <div className="row">
             <div data-aos="fade-in" className="paddingofaboutimage col-lg-6">
               
-                    <img src="assets/images/robosoc-team2.JPG"  className="imgabout" alt="visit"/>
+                    <img src="/assets/images/robosoc-team2.JPG"  className="imgabout" alt="visit"/>
                     </div>
             <div data-aos="fade-up" className="col-lg-6 align-self-center" data-wow-duration="1s" data-wow-delay="0.5s">
               <div className="about-right-content">
@@ -98,7 +98,7 @@ function Aboutsection(){
           <div className="row">
             <div className="paddingofaboutimage down col-lg-6">
               
-                    <img src="assets/images/diversity.jpg" className="imgabout" alt="visit"/>
+                    <img src="/assets/images/diversity.jpg" className="imgabout" alt="visit"/>
                     
                
             </div>
