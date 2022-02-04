@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+
+
+
+
+#timeline{
+	padding-top: 5%;
+	padding-bottom: 10%;
+	
+}
+.timelineh1 {
+	 font-size: 2rem;
+	 margin-bottom: 0.5em;
+	 color: black;
+	 font-family: 'Oswald', sans-serif;
+}
+.timelinepara {
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 0.8rem;
+}
+ .container2 {
+	 max-width: 1024px;
+	 width: 90%;
+	 margin: 0 auto;
+}
+ .timeline-item1 {
+	 padding: 3em 2em 2em;
+	 position: relative;
+	 color: rgba(0, 0, 0, .7);
+	 border-left: 2px solid rgb(0, 0, 0);
+	 background: rgb(255, 255, 255);
+}
+ .timeline-item .timelinepara {
+	 font-size: 1rem;
+}
+.timelinepara{
+	margin: 1em;
+}
+.timelinepara .grey{
+	padding:0.7em 0;
+	font-weight: 600;
+	font-size: 1.4em;
+	color: rgba(0, 0, 0, 0.582);
+	
+	
+	
+}
+.timelinepara .grey>.dati{
+	
+	font-weight: 200;
+	
+	color: rgba(0, 0, 0, 0.582);
+	
+	
+}
+ /* .timeline-item::before {
+	 content: attr(date-is);
+	 position: absolute;
+	 left: 2em;
+	 font-weight: bold;
+	 top: 1em;
+	 display: block;
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 700;
+	 font-size: 0.785rem;
+} */
+ /* .timeline-item::after {
+	 width: 10px;
+	 height: 10px;
+	 display: block;
+	 top: 1em;
+	 position: absolute;
+	 left: -7px;
+	 border-radius: 10px;
+	 content: '';
+	 border: 2px solid rgba(0, 0, 0, .3);
+	 background: white;
+} */
+ .timeline-item:last-child {
+	 border-image: linear-gradient(to bottom, rgba(0, 0, 0, .3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+ .timelineh5{
+	font-weight: bolder;
+ }
